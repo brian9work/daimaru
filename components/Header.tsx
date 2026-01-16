@@ -11,12 +11,12 @@ export default function Header() {
       <div className='flex flex-row items-center justify-center'>
         <Image
           src={"/logo.png"}
-          alt="SushiMaki Logo"
+          alt="Daimaru Logo"
           width={512}
           height={512}
           className='w-16 h-16 object-contain'
         />
-        <h1 className='font-bold text-2xl text-gray-800'>SushiMaki</h1>
+        <h1 className='font-bold text-2xl text-gray-800'>Daimaru</h1>
       </div>
       <div
         className="flex flex-row items-center gap-2 cursor-pointer rounded-md bg-red-600 px-3 py-2 text-sm font-medium text-foreground hover:bg-red-800"
